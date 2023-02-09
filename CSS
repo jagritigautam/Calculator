@@ -1,0 +1,82 @@
+/* html, body {
+  height: 100%;
+  width: 100%;
+/*   min-height: 100vh;
+  background-color: #eadcdc; */
+/*   min-height: 100vh;
+  background-color: #eadcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */ 
+.calculator{
+  width: 300px;
+  height: 500px;
+  box-shadow: 4px 4px 30px #484141 ; 
+  border-radius: 12px;
+  background: #775555;
+  overflow: hidden;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+
+body{
+  min-height: 100vh;
+  background-color: #eadcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input{
+  width: 300px;
+  height: 150px;
+  border: none;
+  border-radius: 12px;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #b3b3f4;
+  background-color: #211c1c;
+  text-align: right;
+  pointer-events: none;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:20px ;
+  
+}
+
+button{
+  flex: 0 0 22%;
+  margin: 5px 0;
+  border: 1px solid #090707;
+  width: 60px;
+  height: 52px;
+  font-size: 22px ;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-yellow{
+  background-color: #f05151;
+  color: #ddc0c0;
+}
+.btn-grey{
+  background-color: #e19609;
+  
+}
+.btn-equal{
+  background-color: #74e274;
+}
+
+.btn-clear{
+  background-color:#672d2d
+}
